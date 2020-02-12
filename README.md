@@ -1,6 +1,8 @@
 # wxCardSwiper
 小程序卡片切换效果组件. 支持异步添加卡片数据, 手势滑动触发.
 
+源码地址: [https://github.com/doterlin/wxCardSwiper](https://github.com/doterlin/wxCardSwiper)
+
 ## 使用方法
 将本项目文件中的`components/cardSwiper`文件夹复制到你项目的目录下，然后在页面的json配置及页面引入。自定义组件的引入和使用请参考[官方文档](https://developers.weixin.qq.com/miniprogram/dev/framework/custom-component/)。
 
@@ -12,6 +14,8 @@
 + **loadmore** `事件` 当需要加载更多数据时出发。
 
 ## 示例
+![demo效果](/demo.gif)
+
 
 `yourPage.json`页面配置（下面的路径换成你copy到项目的path）
 ```json
