@@ -1,0 +1,16 @@
+/**index.wxss**/
+page {
+  height: 100%;
+  overflow: hidden;
+}
+.container{
+  background: #FED214;
+  height: 100%;
+  overflow: hidden;
+  padding: 0;
+}
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

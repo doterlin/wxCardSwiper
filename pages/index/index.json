@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "CardSwiper": "/components/cardSwiper/cardSwiper"
+  },
+  "disableScroll": true,
+  "navigationBarTitleText": "demo"
+}
