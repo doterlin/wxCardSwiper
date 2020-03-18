@@ -47,10 +47,11 @@ Component({
       }
 
       const index = e.currentTarget.dataset["index"];
-      this.setData({
-        ["swiperData[" + index + "].slideClass"]: " ani-slide-up",
-        swiperCurIndex: --this.data.swiperCurIndex
-      });
+      this.setData({["swiperData[" + index + "].slideClass"]: " ani-slide-up"}, () => {
+        this.setData({
+          swiperCurIndex: --this.data.swiperCurIndex
+        });
+      })
 
       setTimeout(() => {
         this.data.lockSwipe = false;
